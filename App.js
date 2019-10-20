@@ -26,12 +26,12 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import {Provider} from 'mobx-react'
-import store from './main/mbx/mbx'
 import JPush from 'jpush-react-native';
-import THIS_PAGE from './main/pz/page'
 // import store from './gao/data/data'
 import { WebView } from 'react-native-webview';
-
+import PAGE from './src/config/stack'
+// import console = require('console');
+import store from './src/mbx/index'
 // componentDidMount() {
   JPush.init();
   //连接状态
@@ -180,7 +180,7 @@ componentWillUnmount(){
 
     return (
       <Provider {...store}>
-    <THIS_PAGE />
+      <PAGE />
     </Provider>
     );
   }
