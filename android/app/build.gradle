@@ -128,13 +128,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.yidongcoffice"
+        applicationId "com.tiyubisai"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0.0"
         manifestPlaceholders = [
-                  JPUSH_APPKEY: "b329ffd45a153659eb1c3e60",        //在此替换你的APPKey
+                  JPUSH_APPKEY: "b769a1131e70c22d8c08a22f",        //在此替换你的APPKey
                   JPUSH_CHANNEL: "default"        //在此替换你的channel
           ]
     }

@@ -1,4 +1,4 @@
-package com.yidongcoffice;
+package com.tiyubisai;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle; 
