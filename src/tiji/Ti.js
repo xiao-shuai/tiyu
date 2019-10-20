@@ -30,8 +30,8 @@ class My2 extends Component {
 
     }
   navigate_login=()=>{
-      Alert.alert('You are not logged in, please log in.！','',
-      [{'text':'cancel',onPress:()=>{}},{'text':'ok',onPress:()=>{
+      Alert.alert('你还没有登录','',
+      [{'text':'取消',onPress:()=>{}},{'text':'确定',onPress:()=>{
           this.props.navigation.navigate('Login')
       }}])
      }  

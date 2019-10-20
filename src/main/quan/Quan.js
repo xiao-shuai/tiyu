@@ -38,8 +38,8 @@ class Quan extends Component {
       
     }
    navigate_login=()=>{
-    Alert.alert('You are not logged in, please log in!','',
-    [{'text':'cancel',onPress:()=>{}},{'text':'ok',onPress:()=>{
+    Alert.alert('你还没有登录!','',
+    [{'text':'取消',onPress:()=>{}},{'text':'确定',onPress:()=>{
         this.props.navigation.navigate('Login')
     }}])
    }  
@@ -75,7 +75,10 @@ class Quan extends Component {
             <Text></Text>
             <Text style={{fontSize:18,fontWeight:'500',color:'white'}}>篮球圈</Text>
             <TouchableOpacity onPress={()=>{
+                login?
                 this.props.navigation.navigate('Fa')
+                :
+                this.navigate_login()
             }}>
                 <Text style={{fontSize:25,color:'white'}}>+</Text>
             </TouchableOpacity>
