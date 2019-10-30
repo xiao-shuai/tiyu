@@ -26,9 +26,9 @@ class Login extends Component {
 
    log=()=>{
        if(this.state.acc==undefined){
-         Alert.alert('请输入正确的账号','',[{'text':'ok',onPress:()=>{}}])
+         Alert.alert('请输入正确的账号','',[{'text':'知道了',onPress:()=>{}}])
        }else if(this.state.pass ==undefined){
-        Alert.alert('请输入正确的密码','',[{'text':'ok',onPress:()=>{}}])
+        Alert.alert('请输入正确的密码','',[{'text':'知道了',onPress:()=>{}}])
        }else{
            fetch('https://www.fastmock.site/mock/bf8e3c1a546ac8d4d184d3b0670cf90c/lanqiudaren/login',{method:'POST'})
            .then(res=>res.json())

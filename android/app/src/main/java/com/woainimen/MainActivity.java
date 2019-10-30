@@ -1,4 +1,4 @@
-package com.tiyubisai;
+package com.tiyuzixunsaishia;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle; 

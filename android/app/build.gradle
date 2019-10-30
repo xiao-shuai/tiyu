@@ -128,13 +128,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tiyubisai"
+        applicationId "com.tiyuzixunsaishia"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0.0"
         manifestPlaceholders = [
-                  JPUSH_APPKEY: "b769a1131e70c22d8c08a22f",        //在此替换你的APPKey
+                  JPUSH_APPKEY: "7f0b73039f5e8d9c58f72110",        //在此替换你的APPKey
                   JPUSH_CHANNEL: "default"        //在此替换你的channel
           ]
     }
