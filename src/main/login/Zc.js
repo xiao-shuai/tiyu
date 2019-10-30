@@ -39,7 +39,7 @@ class Zc extends Component {
   } 
     render(){
         return(
-        <SafeAreaView style={{flex:1,alignItems:'center',backgroundColor:'#18191A'}}>
+        <SafeAreaView style={{flex:1,alignItems:'center',backgroundColor:'white'}}>
          <KeyboardAwareScrollView contentContainerStyle={{alignItems:'center'}}>
              <View style={{width:lan.w,padding:20,marginTop:100,alignItems:'center'}}>
              <Input label='请输入账号' placeholderTextColor='white' 
@@ -65,7 +65,7 @@ class Zc extends Component {
               <TouchableOpacity onPress={()=>{
                   this.props.navigation.goBack()
               }}>
-                  <Text style={{marginTop:30,color:'gold',}}>登录账号</Text>
+                  <Text style={{marginTop:30,color:lan.tm_color,}}>登录账号</Text>
               </TouchableOpacity>
               {/* <TouchableOpacity onPress={()=>{
                   Linking.openURL('https://shimo.im/docs/vV9HqKWqdDcq38dW')

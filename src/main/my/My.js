@@ -8,7 +8,7 @@ import {
     StyleSheet,
     ActivityIndicator,
     TextInput,AsyncStorage,
-    SafeAreaView,Alert,Linking,ProgressBarAndroid
+    SafeAreaView,Alert,Linking,ProgressBarAndroid,ImageBackground
 } from 'react-native'
 import {lan} from '../../config/con_style'
 // import Ionicons from 'react-native-vector-icons/Ionicons'
@@ -47,36 +47,38 @@ class My extends Component {
       const login=this.props.mbx.login
         return(
         <SafeAreaView style={{flex:1,}}>
-          <View style={{width:'100%',height:lan.h*.25,
-          backgroundColor:'#232527',
-          alignItems:'center',
-          justifyContent:'center'
-          }}>
+          <ImageBackground style={{
+            width:'100%',height:lan.h*.25,
+            backgroundColor:'#232527',
+            alignItems:'center',
+            justifyContent:'center'
+          }} source={require('../../img/mybg.png')}>
             <Text style={{fontSize:18,color:'white'}}>2016年6月15日 15:00</Text>
-            <Text style={{fontSize:18,fontWeight:'500',color:'white',marginTop:10}}>四川大学华西校区外场</Text>
+            <Text style={{fontSize:18,fontWeight:'500',color:'white',marginTop:10}}>北京大学华西校区外场</Text>
             <View style={{
                 flexDirection:'row',
             justifyContent:'space-between',marginTop:10
             }}>
             <Ant name='enviromento' style={{fontSize:18,color:'white'}}/>
-            <Text style={{color:'white',marginLeft:5}}>成都市人民南路华西坝四川大学华西校区外场</Text>
+            <Text style={{color:'white',marginLeft:5}}>北京市人民南路华西坝北京大学华西校区外场</Text>
             </View>
-           
-          </View>
+
+          </ImageBackground>
+          
 
           {/*  */}
           {
             login?
             <View style={{padding:20,flexDirection:'row',alignItems:'center'}}>
-           <Image source={{uri:'http://b-ssl.duitang.com/uploads/item/201603/27/20160327101040_fFSku.jpeg'}} style={{
+           <Image source={{uri:'https://c-ssl.duitang.com/uploads/item/201910/15/20191015234447_ffqvu.thumb.300_300_c.jpg'}} style={{
             width:60,height:60,borderRadius:30
            }} />    
            <View style={{marginLeft:20}}>
              <Text style={{fontSize:18,color:'#232527'}}>
-             sunshine
+             lovesunshine
              </Text>
              <Text style={{color:'#979DA1',marginTop:6}}>
-             四川-成都
+              北京-西城区
              </Text>
            </View>
 

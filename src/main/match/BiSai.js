@@ -154,7 +154,7 @@ class BiSai extends Component {
                   }
                   </View>
                </View>
-            <Button title='发布' buttonStyle={{marginTop:20,backgroundColor:'#FFC303FF'}} onPress={()=>{
+            <Button title='发布' buttonStyle={{marginTop:20,backgroundColor:lan.tm_color}} onPress={()=>{
               this.fbbs()
             }}/>
            </KeyboardAwareScrollView>

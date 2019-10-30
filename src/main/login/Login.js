@@ -25,9 +25,9 @@ class Login extends Component {
     }
 
    log=()=>{
-       if(this.state.acc!=='abcde'){
+       if(this.state.acc==undefined){
          Alert.alert('请输入正确的账号','',[{'text':'ok',onPress:()=>{}}])
-       }else if(this.state.pass!=='123456'){
+       }else if(this.state.pass ==undefined){
         Alert.alert('请输入正确的密码','',[{'text':'ok',onPress:()=>{}}])
        }else{
            fetch('https://www.fastmock.site/mock/bf8e3c1a546ac8d4d184d3b0670cf90c/lanqiudaren/login',{method:'POST'})
@@ -40,17 +40,19 @@ class Login extends Component {
    }
     render(){
         return(
-        <SafeAreaView style={{flex:1,alignItems:'center',backgroundColor:'#18191A'}}>
+        <SafeAreaView style={{flex:1,alignItems:'center',backgroundColor:'white'}}>
          <KeyboardAwareScrollView contentContainerStyle={{alignItems:'center'}}>
              <View style={{width:lan.w,padding:20,marginTop:100,alignItems:'center'}}>
              <Input label='输入账号' placeholderTextColor='white' 
-              inputStyle={{color:'white'}}
+             labelStyle={{color:lan.tm_color}}
+            //   inputStyle={{color:'white'}}
               onChangeText={(acc)=>{
               this.setState({acc})
               }}
              />
              <Input label='输入密码' placeholderTextColor='white' 
-              inputStyle={{color:'white'}} 
+            //   inputStyle={{color:'white'}} 
+              labelStyle={{color:lan.tm_color}}
               secureTextEntry={true}
               containerStyle={{marginTop:30}}
                onChangeText={(pass)=>{
@@ -66,12 +68,12 @@ class Login extends Component {
               <TouchableOpacity onPress={()=>{
                   this.props.navigation.navigate('Zc')
               }}>
-                  <Text style={{marginTop:30,color:'gold',}}>注册账号</Text>
+                  <Text style={{marginTop:30,color:lan.tm_color,}}>注册账号</Text>
               </TouchableOpacity>
               <TouchableOpacity onPress={()=>{
                   Linking.openURL('https://shimo.im/docs/vV9HqKWqdDcq38dW')
               }}>
-                  <Text style={{color:'gold',top:lan.h*.25}}>登录代表您已同意《"篮球达人"隐私政策》</Text>
+                  <Text style={{color:lan.tm_color,top:lan.h*.25}}>登录代表您已同意《"篮球资讯赛事"隐私政策》</Text>
               </TouchableOpacity>
 
              </View>

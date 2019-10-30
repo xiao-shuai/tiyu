@@ -87,7 +87,7 @@ class Match extends Component {
                            <Text style={{fontSize:15}}>
                            {i.xuexiao.substr(0,22)+'...'}
                            </Text>
-                           <Text style={{color:'gold'}}>
+                           <Text style={{color:lan.tm_hui}}>
                            2019/6/7
                            </Text>
                        </View>
@@ -96,9 +96,9 @@ class Match extends Component {
                        }}>
                            <View style={{width:'65%'}}>
                              <Text style={{color:'#999999FF'}}>{i.diqu}</Text>
-                             <Text style={{marginTop:5,color:'#999999FF'}}>赛制：5 V 5</Text>
+                             {/* <Text style={{marginTop:5,color:'#999999FF'}}>赛制：5 V 5</Text> */}
                            </View>
-                           <Button title={i.bm} buttonStyle={{backgroundColor:i.bm=='立即报名'?'gold':'#18191A',}} titleStyle={{fontSize:16}} 
+                           <Button title={i.bm} buttonStyle={{backgroundColor:i.bm=='立即报名'?lan.tm_color:lan.tm_hui,}} titleStyle={{fontSize:16}} 
                             onPress={()=>{
                                 login?
                                 this.bm(m)
@@ -124,7 +124,7 @@ export default Match
 const styles=StyleSheet.create({
     top_v:{
         width:'100%',height:lan.h*.1,
-        backgroundColor:'#0B1E2A',
+        backgroundColor:lan.tm_color,
         flexDirection:'row',
         justifyContent:'space-between',
         padding:20,alignItems:'center'

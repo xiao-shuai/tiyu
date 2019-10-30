@@ -134,12 +134,12 @@ const option = {
             
       <View style={styles.w}>
        <Image source={require('../../img/bg.png')} style={{
-        width:'100%',height:'80%',
-        marginTop:'15%'    
+        width:'100%',height:'100%',
+        // marginTop:'15%'    
        }} resizeMode='stretch'/>
        <View style={{flexDirection:'row',
        width:'100%',justifyContent:'space-between',
-       top:-lan.h*.3,padding:20,alignItems:'center'
+       top:-lan.h*.25,padding:20,alignItems:'center'
        }}>
            <View style={{alignItems:'center'}}>
            <Text style={styles.text}>今日比赛：2 场</Text>
@@ -207,7 +207,8 @@ const styles=StyleSheet.create({
     },
     w:{
         width:'100%',
-        height:lan.h*.3,backgroundColor:'#04091CFF'
+        height:lan.h*.25,
+        backgroundColor:lan.tm_color
     },
     text:{
         color:'white',

@@ -18,6 +18,7 @@ import Mybishai from '../main/my/Mybishai'
 import MyFeed from '../main/my/MyFeed'
 import Mylqq from '../main/my/Mylqq'
 import Zc from '../main/login/Zc'
+import Ys_zc from '../main/login/Ys_zc'
   const TAB=createBottomTabNavigator(
     {
         Home: Home,
@@ -56,7 +57,6 @@ import Zc from '../main/login/Zc'
   )
 
     const PAGE=createStackNavigator({
-
         Main:{
             screen:TAB,
             navigationOptions:()=>({
@@ -84,7 +84,17 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'发布篮球圈',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
+                headerTintColor:'white' 
+            })
+          },
+          Ys_zc:{
+            screen:Ys_zc,
+            navigationOptions:()=>({
+                // header:null,
+                title:'隐私政策',
+                headerBackTitle:null,
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -94,7 +104,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'发布比赛',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -104,7 +114,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'篮球圈',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -114,7 +124,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'反馈',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -124,7 +134,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'我的比赛',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -134,7 +144,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'登录',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },
@@ -144,7 +154,7 @@ import Zc from '../main/login/Zc'
                 // header:null,
                 title:'注册',
                 headerBackTitle:null,
-                headerStyle:{backgroundColor:'#18191A'},
+                headerStyle:{backgroundColor:'#3498DB'},
                 headerTintColor:'white' 
             })
           },

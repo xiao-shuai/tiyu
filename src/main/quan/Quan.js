@@ -102,7 +102,7 @@ class Quan extends Component {
                        <Text style={{color:'#A3A7AA',marginTop:5}}>{i.area}</Text>
                    </View>
                    </View>
-                     <Button title={i.gz} buttonStyle={[styles.gz_btn,{backgroundColor:this.props.mbx.lqq[k].gz=='关注'?'gold':'#242425'}]} onPress={()=>{
+                     <Button title={i.gz} buttonStyle={[styles.gz_btn,{backgroundColor:this.props.mbx.lqq[k].gz=='关注'?lan.tm_color:lan.tm_hui}]} onPress={()=>{
                              login?
                              this.props.mbx.gz(k)
                              :this.navigate_login()
@@ -176,7 +176,7 @@ const styles=StyleSheet.create({
     },
     top_v:{
         width:'100%',height:lan.h*.1,
-        backgroundColor:'#0B1E2A',
+        backgroundColor:lan.tm_color,
         flexDirection:'row',
         justifyContent:'space-between',
         padding:20,alignItems:'center'

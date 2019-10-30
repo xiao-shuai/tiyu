@@ -9,18 +9,18 @@ class Data{
     this.login=false
     this.lqq=[
         {
-         img:'http://cdn.duitang.com/uploads/item/201508/02/20150802155755_YCynL.thumb.700_0.jpeg',
-         name:'李梦', 
+         img:'https://c-ssl.duitang.com/uploads/item/201910/15/20191015234458_hcsoi.thumb.300_300_c.jpg',
+         name:'李萌', 
          area:'Beijing - changping',
          gz:'关注',
          xi_color:'#A3A7AA',
          shou_color:'#A3A7AA',
          text:'1891年12月21日由詹姆斯·奈史密斯创造奥运会核心比赛项目是以手为中心的身体对抗性体育运动',
-         con_img:'http://img8.zol.com.cn/bbs/upload/23488/23487397.jpg',
+         con_img:'https://c-ssl.duitang.com/uploads/item/201603/17/20160317225404_x8c2U.thumb.700_0.jpeg',
          },
          {
            gz:'关注',
-            img:'http://cdn.duitang.com/uploads/item/201410/06/20141006213125_PtNn8.thumb.700_0.jpeg',
+            img:'https://c-ssl.duitang.com/uploads/item/201707/16/20170716121221_itSVy.thumb.700_0.jpeg',
             name:'Logan', 
             xi_color:'#A3A7AA',
             shou_color:'#A3A7AA',
@@ -36,21 +36,21 @@ class Data{
              shou_color:'#A3A7AA',
              area:'Wuhan - jianghan',
              text:'　　男女4乘100米混合泳接力是东京奥运会正式项目，而在确定12个奥运参赛席位的光州世锦赛上，中国队预赛犯规无成绩，只能抓紧时间去争取余下四个名额，本站世界杯中国队列出徐嘉余、闫子贝、张雨霏和朱梦惠的阵容，在杨浚瑄出战二青会所以只能放弃的前提下，这就是绝对主力阵容',
-             con_img:'http://hbimg.b0.upaiyun.com/16bd4d2eb6d4083d4e05f8e813e44d02fb358bcd6d915-bOW9GR_fw658',  
+             con_img:'https://c-ssl.duitang.com/uploads/item/201509/13/20150913165310_iCRfK.thumb.700_0.jpeg',  
            },
     ],
   
     this.math=[
      {
-      img:'https://c-ssl.duitang.com/uploads/item/201712/18/20171218124622_duQtY.thumb.700_0.jpeg',
-      xuexiao:'成都理工大学篮球挑战赛',
-      diqu:'成都市二仙桥成都理工大学校园内',
+      img:'https://c-ssl.duitang.com/uploads/item/201603/08/20160308010338_GkS2d.thumb.700_0.jpeg',
+      xuexiao:'北京理工大学篮球挑战赛',
+      diqu:'北京市二仙桥成都理工大学校园内',
       bm:'立即报名'
      },
      {
-      img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564724336664&di=9c2c73f92f12079e5f459d37928ce447&imgtype=0&src=http%3A%2F%2Fimage1.wulinsoso.com%2Fvector%2Flanrentuku%2F2014%2F01%2F08%2F0003088225.jpg',
+      img:'https://c-ssl.duitang.com/uploads/item/201507/11/20150711131358_Uh3Z8.thumb.700_0.png',
       xuexiao:'城东翡翠城业主挑战赛',
-      diqu:'成都市成仁立交附近翡翠城一个内场',
+      diqu:'北京市成仁立交附近翡翠城一个内场',
       bm:'立即报名'
      },
      {

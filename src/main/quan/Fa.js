@@ -129,7 +129,7 @@ class Fa extends Component{
                 </View>
                 </TouchableOpacity> 
 
-                <Button buttonStyle={{width:'100%',marginTop:20,backgroundColor:'gold'}} title='发布'
+                <Button buttonStyle={{width:'100%',marginTop:20,backgroundColor:lan.tm_color}} title='发布'
                  onPress={()=>{
                      this.fa()
                  }}
