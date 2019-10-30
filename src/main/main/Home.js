@@ -139,7 +139,7 @@ const option = {
        }} resizeMode='stretch'/>
        <View style={{flexDirection:'row',
        width:'100%',justifyContent:'space-between',
-       top:-lan.h*.25,padding:20,alignItems:'center'
+       top:-lan.h*.3,padding:20,alignItems:'center'
        }}>
            <View style={{alignItems:'center'}}>
            <Text style={styles.text}>今日比赛：2 场</Text>
