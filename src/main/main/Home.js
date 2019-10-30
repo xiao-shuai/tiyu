@@ -207,7 +207,7 @@ const styles=StyleSheet.create({
     },
     w:{
         width:'100%',
-        height:lan.h*.25,
+        height:lan.h*.3,
         backgroundColor:lan.tm_color
     },
     text:{

@@ -51,7 +51,7 @@ Feedback=()=>{
                 />
     
             </View>
-            <Button title='提价' buttonStyle={{backgroundColor:'gold',marginTop:20,width:lan.w*.92}} onPress={()=>{
+            <Button title='提价' buttonStyle={{backgroundColor:lan.tm_color,marginTop:20,width:lan.w*.92}} onPress={()=>{
                 this.Feedback()
             }} />
             </KeyboardAwareScrollView>
