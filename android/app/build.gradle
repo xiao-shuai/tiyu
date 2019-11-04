@@ -134,7 +134,7 @@ android {
         versionCode 1
         versionName "1.0.0"
         manifestPlaceholders = [
-                  JPUSH_APPKEY: "7f0b73039f5e8d9c58f72110",        //在此替换你的APPKey
+                  JPUSH_APPKEY: "0d554cffd5dfae2846c59215",        //在此替换你的APPKey
                   JPUSH_CHANNEL: "default"        //在此替换你的channel
           ]
     }
