@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tiyuzixunsaishia"
+        applicationId "com.lanqiushequb"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
