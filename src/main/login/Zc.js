@@ -43,13 +43,13 @@ class Zc extends Component {
          <KeyboardAwareScrollView contentContainerStyle={{alignItems:'center'}}>
              <View style={{width:lan.w,padding:20,marginTop:100,alignItems:'center'}}>
              <Input label='请输入账号' placeholderTextColor='white' 
-              inputStyle={{color:'white'}}
+            //   inputStyle={{color:'white'}}
               onChangeText={(one)=>{
                   this.setState({one})
               }}
              />
              <Input label='输入密码' placeholderTextColor='white' 
-              inputStyle={{color:'white'}} 
+            //   inputStyle={{color:'white'}} 
               secureTextEntry={true}
               containerStyle={{marginTop:30}}
               onChangeText={(one2)=>{
